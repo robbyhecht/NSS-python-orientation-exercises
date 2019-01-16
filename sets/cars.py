@@ -30,10 +30,8 @@ print(showroom.intersection(junkyard))
 #Combine junkyard and showroom
 print(showroom.union(junkyard))
 
-#discard cars from junkyard - not working
+#discard cars from junkyard
 cars = junkyard.intersection(showroom)
 for car in cars:
   junkyard.discard(car)
 print('junkyard= ', junkyard)
-
-# doesn't work: print(junkyard.discard(junkyard.intersection(showroom)))
