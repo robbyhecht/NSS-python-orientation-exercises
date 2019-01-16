@@ -13,12 +13,12 @@ purchases = [
 ]
 
 
-for purchase in purchases:
-  company = purchase[0]
-  for stock in stockDict:
-    if stock == company:
-      company = stockDict[stock]
-      print("I purchased " + company + " stock for $" + str(purchase[1] * purchase[3]))
+# for purchase in purchases:
+#   company = purchase[0]
+#   for stock in stockDict:
+#     if stock == company:
+#       company = stockDict[stock]
+#       print("I purchased " + company + " stock for $" + str(purchase[1] * purchase[3]))
 
 
 # joe's way:
